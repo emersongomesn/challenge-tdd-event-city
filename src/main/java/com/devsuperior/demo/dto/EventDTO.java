@@ -5,13 +5,13 @@ import java.time.LocalDate;
 import com.devsuperior.demo.entities.Event;
 
 public class EventDTO {
-	
+
 	private Long id;
 	private String name;
 	private LocalDate date;
 	private String url;
 	private Long cityId;
-	
+
 	public EventDTO() {
 	}
 
@@ -22,7 +22,7 @@ public class EventDTO {
 		this.url = url;
 		this.cityId = cityId;
 	}
-	
+
 	public EventDTO(Event entity) {
 		id = entity.getId();
 		name = entity.getName();
